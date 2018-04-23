@@ -1,0 +1,29 @@
+img {
+    max-height: 140px;
+}
+
+figcaption {
+    height: 30px;
+    position: relative;
+    top: -30px;
+    background: rgba(2, 2, 2, 0.527);
+    color: white;
+    font-size: 12pt;
+}
+
+.card-body {
+    margin-top: -35px;
+}
+
+.favorito {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: -35px;
+    margin-left: 250px;
+    background: white;
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+}
