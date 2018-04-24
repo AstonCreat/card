@@ -2,6 +2,10 @@ img {
     max-height: 140px;
 }
 
+.bg-gray {
+    background: rgb(248, 248, 248);
+}
+
 figcaption {
     height: 30px;
     position: relative;
@@ -15,6 +19,12 @@ figcaption {
     margin-top: -35px;
 }
 
+.card_sombra {
+    -webkit-box-shadow: -1px 2px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 15px -4px rgba(0, 0, 0, 0.75);
+}
+
 .favorito {
     width: 30px;
     height: 30px;
@@ -26,4 +36,18 @@ figcaption {
     background: white;
     clip-path: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
+}
+
+.sombra {
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 2px 15px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 15px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media(max-width:414px) {
+    #aquario_2 {
+        display: none;
+    }
 }
