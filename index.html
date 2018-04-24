@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
@@ -13,89 +13,158 @@
     <title>Card</title>
 </head>
 
-<body>
-    <main class="container mt-2">
-        <div class="card-columns">
-            <!-- inicio row -->
-            <div class="row m-sm-auto flex-row justify-content-center">
-                <!-- inicio card -->
-                <div class="card mt-3 mr-1 mb-1" style="max-width: 18rem;">
-                    <div class="favorito d-flex justify-content-center align-content-center">
-                        <i class="fas fa-heart" style="color: red"></i>
-                    </div>
-                    <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
-                    <figcaption>
-                        <p class="ml-1 font-weight-bold">R$: 250,00</p>
-                    </figcaption>
-
-                    <div class="card-body">
-                        <h5 class="card-title ">Aquario novo</h5>
-                        <p class="card-text">
-                            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
-                            <p><i class="far fa-building"></i> <small>AquaFish</small></p>
-                            <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
-                            <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Ultima atualização: 15/04/2017</small>
-                    </div>
-                </div>
-                <!-- fim card -->
-                <!-- inicio card -->
-                <div class="card mt-3 mr-1 mb-1" style="max-width: 18rem;">
-                    <div class="favorito d-flex justify-content-center align-content-center">
-                        <i class="fas fa-heart" style="color: red"></i>
-                    </div>
-                    <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
-                    <figcaption>
-                        <p class="ml-1 font-weight-bold">R$: 250,00</p>
-                    </figcaption>
-
-                    <div class="card-body">
-                        <h5 class="card-title ">Aquario novo</h5>
-                        <p class="card-text">
-                            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
-                            <p><i class="far fa-building"></i> <small>AquaFish</small></p>
-                            <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
-                            <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Ultima atualização: 15/04/2017</small>
-                    </div>
-                </div>
-                <!-- fim card -->
-                <!-- inicio card -->
-                <div class="card mt-3 mr-1 mb-1" style="max-width: 18rem;">
-                    <div class="favorito d-flex justify-content-center align-content-center">
-                        <i class="fas fa-heart" style="color: red"></i>
-                    </div>
-                    <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
-                    <figcaption>
-                        <p class="ml-1 font-weight-bold">R$: 250,00</p>
-                    </figcaption>
-
-                    <div class="card-body">
-                        <h5 class="card-title ">Aquario novo</h5>
-                        <p class="card-text">
-                            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
-                            <p><i class="far fa-building"></i> <small>AquaFish</small></p>
-                            <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
-                            <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Ultima atualização: 15/04/2017</small>
-                    </div>
-                </div>
-                <!-- fim card -->
+<body class="bg-gray">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logotipo_Preto.svg" width="100px" height="30px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link" href="#">Anuncios <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
             </div>
-            <!-- fim da row -->
+        </nav>
+    </header>
+    <!-- barra -->
+    <section class="col-12 mt-2 bg-white p-3 mb-3">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <span class="mr-5"><i class="fas fa-filter"></i> Filtrar</span>
+                <span class="mr-5"><i class="fas fa-sort"></i> Ordenar</span>
+                <span><i class="fas fa-list"></i> Categoria</span>
+            </div>
+            <!--
+            <div class="col">
+                <span><i class="fas fa-filter"></i>Filtrar</span>
+            </div>
+            <div class="col">
+                <span><i class="fas fa-filter"></i>Filtrar</span>
+            </div>
+            -->
+        </div>
+
+    </section>
+    <!-- fim barra -->
+    <main class="container-fluid mt-4">
+
+        <div class="container sr-only">
+
+            <!-- mudanças na nova branch "mudança_cod" -->
+            <div class="card-columns" id="desktop">
+                <!-- inicio row -->
+                <div class="row m-sm-auto flex-row justify-content-center">
+                    <!-- inicio card -->
+                    <div class="card mt-3 mr-1 mb-1 card_sombra" style="max-width: 18rem;">
+                        <div class="favorito d-flex justify-content-center align-content-center">
+                            <i class="fas fa-heart" style="color: red"></i>
+                        </div>
+                        <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
+                        <figcaption>
+                            <p class="ml-1 font-weight-bold">R$: 250,00</p>
+                        </figcaption>
+
+                        <div class="card-body">
+                            <h5 class="card-title ">Aquario novo</h5>
+                            <p class="card-text">
+                                <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
+                                <p><i class="far fa-building"></i> <small>AquaFish</small></p>
+                                <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
+                                <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Ultima atualização: 15/04/2017</small>
+                        </div>
+                    </div>
+                    <!-- fim card -->
+
+                    <!-- inicio card -->
+                    <div class="card mt-3 mr-1 mb-1 card_sombra" style="max-width: 18rem;">
+                        <div class="favorito d-flex justify-content-center align-content-center">
+                            <i class="fas fa-heart" style="color: red"></i>
+                        </div>
+                        <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
+                        <figcaption>
+                            <p class="ml-1 font-weight-bold">R$: 250,00</p>
+                        </figcaption>
+
+                        <div class="card-body">
+                            <h5 class="card-title ">Aquario novo</h5>
+                            <p class="card-text">
+                                <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
+                                <p><i class="far fa-building"></i> <small>AquaFish</small></p>
+                                <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
+                                <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Ultima atualização: 15/04/2017</small>
+                        </div>
+                    </div>
+                    <!-- fim card -->
+                    <!-- inicio card -->
+                    <div class="card mt-3 mr-1 mb-1 card_sombra" style="max-width: 18rem;">
+                        <div class="favorito d-flex justify-content-center align-content-center">
+                            <i class="fas fa-heart" style="color: red"></i>
+                        </div>
+                        <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
+                        <figcaption>
+                            <p class="ml-1 font-weight-bold">R$: 250,00</p>
+                        </figcaption>
+
+                        <div class="card-body">
+                            <h5 class="card-title ">Aquario novo</h5>
+                            <p class="card-text">
+                                <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
+                                <p><i class="far fa-building"></i> <small>AquaFish</small></p>
+                                <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
+                                <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Ultima atualização: 15/04/2017</small>
+                        </div>
+                    </div>
+                    <!-- fim card -->
+                </div>
+                <!-- fim da row -->
+
+            </div>
+            <!-- fim card-columns -->
 
         </div>
-        <!-- fim card-columns -->
 
+        <div class="col-12 ">
+            <div class="row">
+                <div class="card-body m-0 sombra">
+                    <img class="card-img col-4 p-0" src="img/aq1.jpg" width="100%" height="100%" alt="">
+                    <div class="col-8 float-right">
+                        <h5 class="card-title ">Aquario novo</h5>
+                        <p class="card-text">
+                            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit</small>
+                            <p><i class="far fa-building"></i> <small>AquaFish</small></p>
+                            <p><i class="far fa-clock"></i> <small>8:00 ÁS 20:00</small></p>
+                            <p><i class="far fa-map-marker"></i> <small>AquaFish</small></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -103,7 +172,7 @@
 
 
     </main>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html
