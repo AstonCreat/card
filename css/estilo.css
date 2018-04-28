@@ -36,8 +36,6 @@ figcaption {
     margin-bottom: -35px;
     margin-left: 250px;
     background: white;
-    clip-path: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
     position: absolute;
     right: 5px;
     top: 5px;
@@ -51,10 +49,6 @@ figcaption {
 .circle {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .circle {
@@ -67,10 +61,6 @@ figcaption {
 .circle-intenal {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .circle-intenal {
@@ -103,12 +93,6 @@ figcaption {
 .barra-mobile {
     position: fixed;
     bottom: 0px;
-}
-
-.barra-mobile {
-    -webkit-box-shadow: -1px -5px 18px -5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px -5px 18px -5px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px -5px 18px -5px rgba(0, 0, 0, 0.75);
 }
 
 div span {

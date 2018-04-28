@@ -65,7 +65,7 @@
             <form action="GET">
                 <div class="input-group">
                     <select class="custom-select">
-                    <option disabled>selecione</option>
+                    <option disabled="" selected="">selecione</option>
                     <option value="1">Empresa</option>
                     <option value="2">Produto</option>
                     </select>
@@ -86,7 +86,7 @@
                 <div class="row m-sm-auto flex-row justify-content-center">
                     <!-- start card -->
                     <div class="card mt-3 mr-1 mb-1" style="max-width: 18rem;">
-                        <div class="favorito d-flex justify-content-center align-content-center">
+                        <div class="favorito rounded-circle d-flex justify-content-center align-content-center">
                             <i class="fas fa-heart" style="color: red"></i>
                         </div>
                         <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
@@ -111,7 +111,7 @@
 
                     <!-- start card -->
                     <div class="card mt-3 mr-1 mb-1" style="max-width: 18rem;">
-                        <div class="favorito d-flex justify-content-center align-content-center">
+                        <div class="favorito rounded-circle d-flex justify-content-center align-content-center">
                             <i class="fas fa-heart" style="color: red"></i>
                         </div>
                         <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
@@ -135,7 +135,7 @@
                     <!-- end card -->
                     <!-- start card -->
                     <div class="card mt-3 mr-1 mb-1" style="max-width: 18rem;">
-                        <div class="favorito d-flex justify-content-center align-content-center">
+                        <div class="favorito rounded-circle d-flex justify-content-center align-content-center">
                             <i class="fas fa-heart" style="color: red"></i>
                         </div>
                         <img class="card-img-top" src="img/aq1.jpg" alt="aquario 1">
@@ -169,23 +169,23 @@
     <div class="bar_circle col d-flex justify-content-end  ">
         <div class="row d-flex flex-column mr-2">
             <!--button envelope-->
-            <div class="circle-intenal circle-email mb-2">
+            <div class="circle-intenal rounded-circle shadow-sm circle-email mb-2">
                 <i class="fas fa-envelope fa-1x text-white"></i>
             </div>
             <!--button phone-->
-            <div class="circle-intenal circle-call mb-2">
+            <div class="circle-intenal rounded-circle shadow-sm circle-call mb-2">
                 <i class="fas fa-phone fa-1x text-white"></i>
             </div>
             <!--button chat-->
-            <div class="circle-intenal circle-chat mb-2">
+            <div class="circle-intenal rounded-circle shadow-sm circle-chat mb-2">
                 <i class="fas fa-comments fa-1x"></i>
             </div>
             <!--button compartilhamento-->
-            <div class="circle-intenal circle-social mb-2">
+            <div class="circle-intenal rounded-circle shadow-sm circle-social mb-2">
                 <i class="fas fa-share-alt fa-1x text-white"></i>
             </div>
             <!--button plus-->
-            <div class="circle circle-plus mr-1">
+            <div class="circle rounded-circle shadow-lg circle-plus mr-1">
                 <i class="fas fa-plus fa-2x text-white"></i>
             </div>
 
@@ -195,7 +195,7 @@
     </div>
 
 
-    <section class="col-12 bg-white p-3 barra-mobile">
+    <section class="col-12 bg-white p-3 shadow-lg barra-mobile">
         <div class="row ">
             <div class="col d-flex justify-content-center ">
                 <div class="flex-fill d-flex align-content-sm-start">
@@ -205,7 +205,7 @@
                     <span><i class="fas fa-heart fa-2x"></i></span>
                 </div>
                 <div class="flex-fill d-flex justify-content-end">
-                    <span><i class="fas fa-comment fa-2x"></i></span>
+                    <span id="chat"><i class="fas fa-comment fa-2x"></i></span>
                 </div>
             </div>
         </div>
