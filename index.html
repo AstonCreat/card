@@ -14,6 +14,42 @@
 </head>
 
 <body class="bg-gray">
+    <!--Modal login-->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginLabel">Acesso usuário</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="login" class="font-weight-bold">Login</label>
+                            <input type="text" class="form-control form-control-lg">
+                        </div>
+                        <div class="form-group">
+                            <label for="login" class="font-weight-bold">Senha</label>
+                            <input type="password" class="form-control form-control-lg">
+                        </div>
+                        <div class="form-group">
+                            <small><a href="#" class="btn btn-link"> Esqueceu a senha?</a></small>
+                            <small><a href="#" class="btn btn-link float-right">Novo cadastro</a></small>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success btn-lg btn-block">Logar</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger btn-block" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fim Modal login-->
+
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#">
@@ -34,7 +70,7 @@
                         <a class="nav-link" href="#">App</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-info" href="#"><i class="fas fa-user"></i> Login</a>
+                        <a class="nav-link btn btn-info text-white" href="#" data-toggle="modal" data-target="#login"><i class="fas fa-user"></i> Login</a>
                     </li>
                 </ul>
             </div>
