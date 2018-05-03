@@ -8,13 +8,15 @@ $(document).ready(function() {
     });
 
     $("#clickFiltrar").click(function() {
-        $("#pesquisa").hide(300);
-        $("#filtar").toggle(500);
+        $("#pesquisa").slideUp(300, function() {
+            $("#filtar").slideToggle(500);
+        });
     })
 
     $("#clickCategoria").click(function() {
-        $("#filtar").hide(300);
-        $("#pesquisa").toggle(500);
+        $("#filtar").slideUp(300, function() {
+            $("#pesquisa").slideToggle(500);
+        });
     })
 
     $("#requestPsw").click(function() {
