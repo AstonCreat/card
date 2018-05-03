@@ -11,12 +11,19 @@ $(document).ready(function() {
         $("#pesquisa").hide(300);
         $("#filtar").toggle(500);
     })
+
     $("#clickCategoria").click(function() {
         $("#filtar").hide(300);
         $("#pesquisa").toggle(500);
     })
 
-    $("#chat").click(function() {
-        confirm("Sua mensagem será visualizada quando vendenor estiver online.");
+    $("#requestPsw").click(function() {
+        $("#login").modal('hide');
     })
+
+    $("#chat").click(function() {
+        confirm("Sua mensagem será visualizada quando vendedor estiver online.");
+    })
+
+
 });

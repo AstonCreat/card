@@ -95,6 +95,14 @@ figcaption {
     bottom: 0px;
 }
 
+.margin-especial {
+    margin-left: 0.005rem !important;
+}
+
+.imgUser {
+    height: 100px;
+}
+
 div span {
     cursor: pointer;
 }
