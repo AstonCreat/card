@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+
     $(".circle-intenal").hide();
     $("#filtar").hide();
     $("#pesquisa").hide();
